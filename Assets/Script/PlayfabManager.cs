@@ -88,7 +88,7 @@ public class PlayfabManager : MonoBehaviour
 
     // --- Private Variables --- //
     private float lastServerSaveTime = -100f; // 마지막으로 서버에 저장한 시각 (잦은 저장 방지용)
-    private const float serverSaveInterval = 60f; // 서버 저장 최소 간격(초) // 이 값도 서버에서 받게 수정 요망
+    private float serverSaveInterval = 60f; // 서버 저장 최소 간격(초). 서버의 TitleData를 통해 덮어쓸 수 있습니다.
 
     // --- Serialized Fields for UI --- //
     [Header("PlayFab 기본 설정")]
@@ -577,9 +577,6 @@ public class PlayfabManager : MonoBehaviour
             (error) => AddLog($"[Economy] 아이템 사용 실패: {error.GenerateErrorReport()}")
         );
     }
-    #endregion
-
-    #region ### 타이틀 데이터 (원격 설정) ###
     /// <summary>
     /// 게임 전체 설정 데이터(TitleData)를 서버에서 가져옵니다.
     /// </summary>
@@ -596,6 +593,25 @@ public class PlayfabManager : MonoBehaviour
             {
                 AddLog("[TitleData] 타이틀 데이터 로드 성공!");
                 TitleData = result.Data;
+
+                // 서버의 TitleData에서 서버 저장 간격 값을 가져와 설정합니다.
+                if (TitleData.TryGetValue("SaveInterval", out string intervalValue))
+                {
+                    if (float.TryParse(intervalValue, out float newInterval) && newInterval > 0)
+                    {
+                        serverSaveInterval = newInterval;
+                        AddLog($"[TitleData] 서버 저장 간격이 '{serverSaveInterval}'초로 설정되었습니다.");
+                    }
+                    else
+                    {
+                        AddLog($"[TitleData] 'SaveInterval' 값이 유효하지 않습니다: {intervalValue}. 기본값을 유지합니다.");
+                    }
+                }
+                else
+                {
+                    AddLog($"[TitleData] 'SaveInterval' 키를 찾을 수 없습니다. 기본값 '{serverSaveInterval}'초를 사용합니다.");
+                }
+
                 onComplete?.Invoke();
             },
             (error) =>
@@ -769,6 +785,9 @@ public class PlayfabManager : MonoBehaviour
     /// <summary>
     /// TitleData의 특정 키 값 변경을 감지하고, 변경 시 전체 데이터를 다시 로드합니다.
     /// 예: 이벤트 배율 변경 시 즉시 적용. 주기적으로 호출하여 서버 변경사항을 확인할 수 있습니다.
+    /// 유저데이터 변경시 서버에 저장이 이루어지고 호출되게 해둠(저장 순서 변경되면 주석 수정요)
+    /// 이코노미 쪽 저장 할 때 호출 되는 기능 추가 요망
+    /// 실시간 추가 할 지 여부 결정 요망
     /// </summary>
     private void ForceDataUpdate()
     {
@@ -799,7 +818,6 @@ public class PlayfabManager : MonoBehaviour
 
 
     #region ### PlayFab 추가 기능 아이디어 ###
-
     //서버 값 온리
     //공지
     //이벤트 기간 설정

@@ -12,5 +12,822 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a0b2755314173004883b3f5c4f3949d3, type: 3}
   m_Name: DataClient
   m_EditorClassIdentifier: 
-  testData0: []
-  testData1: []
+  testData0:
+  - name:
+      hash: -369781019
+      cryptoKey: 3000b60055007800a900ae00d800
+      hiddenChars: 78c5e3b1
+      currentCryptoKey: 
+      hiddenValue: 
+      version: 1
+    atk:
+      hash: -930843657
+      hiddenValue: 720903536
+      currentCryptoKey: 1800850243
+      hiddenValueOldByte4:
+        b1: 0
+        b2: 0
+        b3: 0
+        b4: 0
+      version: 1
+      migratedVersion: 
+    hp:
+      hash: 1131426227
+      hiddenValue: 16746987
+      currentCryptoKey: 1138127963
+      hiddenValueOldByte4:
+        b1: 0
+        b2: 0
+        b3: 0
+        b4: 0
+      version: 1
+      migratedVersion: 
+    levelToExp:
+      hash: 1367506385
+      hiddenValue: -1233476477
+      currentCryptoKey: 1530745388
+      version: 1
+  - name:
+      hash: 682352013
+      cryptoKey: 9e005f004f00bd005700ca002400
+      hiddenChars: eac7f3c0c3b7
+      currentCryptoKey: 
+      hiddenValue: 
+      version: 1
+    atk:
+      hash: 453473187
+      hiddenValue: 291562651
+      currentCryptoKey: 1347969179
+      hiddenValueOldByte4:
+        b1: 0
+        b2: 0
+        b3: 0
+        b4: 0
+      version: 1
+      migratedVersion: 
+    hp:
+      hash: 67661677
+      hiddenValue: 1986858071
+      currentCryptoKey: 1222957422
+      hiddenValueOldByte4:
+        b1: 0
+        b2: 0
+        b3: 0
+        b4: 0
+      version: 1
+      migratedVersion: 
+    levelToExp:
+      hash: 530268065
+      hiddenValue: -539412931
+      currentCryptoKey: 1877313170
+      version: 1
+  - name:
+      hash: 680314181
+      cryptoKey: f500c000e800960084005e003600
+      hiddenChars: 49c06cc064b7
+      currentCryptoKey: 
+      hiddenValue: 
+      version: 1
+    atk:
+      hash: 453473187
+      hiddenValue: 473312924
+      currentCryptoKey: 1569863324
+      hiddenValueOldByte4:
+        b1: 0
+        b2: 0
+        b3: 0
+        b4: 0
+      version: 1
+      migratedVersion: 
+    hp:
+      hash: 67661677
+      hiddenValue: 1261970120
+      currentCryptoKey: 1976208625
+      hiddenValueOldByte4:
+        b1: 0
+        b2: 0
+        b3: 0
+        b4: 0
+      version: 1
+      migratedVersion: 
+    levelToExp:
+      hash: 0
+      hiddenValue: 0
+      currentCryptoKey: 0
+      version: 0
+  - name:
+      hash: 651935969
+      cryptoKey: e5000900f5001e005e008100a600
+      hiddenChars: 49baadc2c5d1
+      currentCryptoKey: 
+      hiddenValue: 
+      version: 1
+    atk:
+      hash: -930843657
+      hiddenValue: 669533019
+      currentCryptoKey: 1711856488
+      hiddenValueOldByte4:
+        b1: 0
+        b2: 0
+        b3: 0
+        b4: 0
+      version: 1
+      migratedVersion: 
+    hp:
+      hash: 1131426227
+      hiddenValue: 50062426
+      currentCryptoKey: 1102803178
+      hiddenValueOldByte4:
+        b1: 0
+        b2: 0
+        b3: 0
+        b4: 0
+      version: 1
+      migratedVersion: 
+    levelToExp:
+      hash: 1367506385
+      hiddenValue: 2065723515
+      currentCryptoKey: 1032861747
+      version: 1
+  - name:
+      hash: 682128215
+      cryptoKey: ad00c80024007f00120082004c00
+      hiddenChars: e5c59db11600
+      currentCryptoKey: 
+      hiddenValue: 
+      version: 1
+    atk:
+      hash: -930843657
+      hiddenValue: 578415279
+      currentCryptoKey: 1671514780
+      hiddenValueOldByte4:
+        b1: 0
+        b2: 0
+        b3: 0
+        b4: 0
+      version: 1
+      migratedVersion: 
+    hp:
+      hash: 1131426227
+      hiddenValue: 817883842
+      currentCryptoKey: 1941255282
+      hiddenValueOldByte4:
+        b1: 0
+        b2: 0
+        b3: 0
+        b4: 0
+      version: 1
+      migratedVersion: 
+    levelToExp:
+      hash: 1367506385
+      hiddenValue: -1050837885
+      currentCryptoKey: 1622064749
+      version: 1
+  - name:
+      hash: 1042779935
+      cryptoKey: 3a000400f5006f000f00fa006f00
+      hiddenChars: 4ec7a8c079b75d00
+      currentCryptoKey: 
+      hiddenValue: 
+      version: 1
+    atk:
+      hash: 453473187
+      hiddenValue: 241884803
+      currentCryptoKey: 1331849859
+      hiddenValueOldByte4:
+        b1: 0
+        b2: 0
+        b3: 0
+        b4: 0
+      version: 1
+      migratedVersion: 
+    hp:
+      hash: 67661677
+      hiddenValue: 1522607399
+      currentCryptoKey: 1691186462
+      hiddenValueOldByte4:
+        b1: 0
+        b2: 0
+        b3: 0
+        b4: 0
+      version: 1
+      migratedVersion: 
+    levelToExp:
+      hash: 530268065
+      hiddenValue: -2136353095
+      currentCryptoKey: 1078589129
+      version: 1
+  - name:
+      hash: 975531479
+      cryptoKey: 4a0078005e006e0002003100a800
+      hiddenChars: f6c0d4c0d2b75c00
+      currentCryptoKey: 
+      hiddenValue: 
+      version: 1
+    atk:
+      hash: 453473187
+      hiddenValue: 333237776
+      currentCryptoKey: 1383259152
+      hiddenValueOldByte4:
+        b1: 0
+        b2: 0
+        b3: 0
+        b4: 0
+      version: 1
+      migratedVersion: 
+    hp:
+      hash: 67661677
+      hiddenValue: 1735582070
+      currentCryptoKey: 1493812815
+      hiddenValueOldByte4:
+        b1: 0
+        b2: 0
+        b3: 0
+        b4: 0
+      version: 1
+      migratedVersion: 
+    levelToExp:
+      hash: 0
+      hiddenValue: 0
+      currentCryptoKey: 0
+      version: 0
+  - name:
+      hash: 39050547
+      cryptoKey: 3b00b1001900e3005400b800b700
+      hiddenChars: 97ba15c229d1d100
+      currentCryptoKey: 
+      hiddenValue: 
+      version: 1
+    atk:
+      hash: -930843657
+      hiddenValue: 238795380
+      currentCryptoKey: 1341196359
+      hiddenValueOldByte4:
+        b1: 0
+        b2: 0
+        b3: 0
+        b4: 0
+      version: 1
+      migratedVersion: 
+    hp:
+      hash: 1131426227
+      hiddenValue: 756200809
+      currentCryptoKey: 1860868569
+      hiddenValueOldByte4:
+        b1: 0
+        b2: 0
+        b3: 0
+        b4: 0
+      version: 1
+      migratedVersion: 
+    levelToExp:
+      hash: 1367506385
+      hiddenValue: -606719365
+      currentCryptoKey: 1844123960
+      version: 1
+  testData1:
+  - name:
+      hash: -369781019
+      cryptoKey: d700700012000900cb0047009500
+      hiddenChars: 9fc525b1
+      currentCryptoKey: 
+      hiddenValue: 
+      version: 1
+    atk:
+      hash: 1124441843
+      hiddenValue: 66572446
+      currentCryptoKey: 1117535059
+      hiddenValueOldByte4:
+        b1: 0
+        b2: 0
+        b3: 0
+        b4: 0
+      version: 1
+      migratedVersion: 
+    hp:
+      hash: 1131426227
+      hiddenValue: 662885392
+      currentCryptoKey: 1686833568
+      hiddenValueOldByte4:
+        b1: 0
+        b2: 0
+        b3: 0
+        b4: 0
+      version: 1
+      migratedVersion: 
+    levelToExp:
+      hash: 1367506385
+      hiddenValue: -1533190781
+      currentCryptoKey: 1380888316
+      version: 1
+  - name:
+      hash: 682352013
+      cryptoKey: b900f40099005400b3008e008200
+      hiddenChars: cdc758c015b7
+      currentCryptoKey: 
+      hiddenValue: 
+      version: 1
+    atk:
+      hash: 453473187
+      hiddenValue: 146736467
+      currentCryptoKey: 1236909907
+      hiddenValueOldByte4:
+        b1: 0
+        b2: 0
+        b3: 0
+        b4: 0
+      version: 1
+      migratedVersion: 
+    hp:
+      hash: 67661677
+      hiddenValue: 1076247743
+      currentCryptoKey: 2127860358
+      hiddenValueOldByte4:
+        b1: 0
+        b2: 0
+        b3: 0
+        b4: 0
+      version: 1
+      migratedVersion: 
+    levelToExp:
+      hash: 530268065
+      hiddenValue: -2132170299
+      currentCryptoKey: 1080680806
+      version: 1
+  - name:
+      hash: 680314181
+      cryptoKey: db00b200f6001f006d00d500f700
+      hiddenChars: 67c01ec07ab7
+      currentCryptoKey: 
+      hiddenValue: 
+      version: 1
+    atk:
+      hash: 453473187
+      hiddenValue: 780663885
+      currentCryptoKey: 1866499917
+      hiddenValueOldByte4:
+        b1: 0
+        b2: 0
+        b3: 0
+        b4: 0
+      version: 1
+      migratedVersion: 
+    hp:
+      hash: 67661677
+      hiddenValue: 2131782277
+      currentCryptoKey: 1099080892
+      hiddenValueOldByte4:
+        b1: 0
+        b2: 0
+        b3: 0
+        b4: 0
+      version: 1
+      migratedVersion: 
+    levelToExp:
+      hash: 0
+      hiddenValue: 0
+      currentCryptoKey: 0
+      version: 0
+  - name:
+      hash: 651935969
+      cryptoKey: 3f0073005000b300df00f100eb00
+      hiddenChars: 93bad7c260d1
+      currentCryptoKey: 
+      hiddenValue: 
+      version: 1
+    atk:
+      hash: -930843657
+      hiddenValue: 396687943
+      currentCryptoKey: 1454479220
+      hiddenValueOldByte4:
+        b1: 0
+        b2: 0
+        b3: 0
+        b4: 0
+      version: 1
+      migratedVersion: 
+    hp:
+      hash: 1131426227
+      hiddenValue: 262134382
+      currentCryptoKey: 1283790046
+      hiddenValueOldByte4:
+        b1: 0
+        b2: 0
+        b3: 0
+        b4: 0
+      version: 1
+      migratedVersion: 
+    levelToExp:
+      hash: 1367506385
+      hiddenValue: -777865605
+      currentCryptoKey: 1758550840
+      version: 1
+  - name:
+      hash: 682128215
+      cryptoKey: d20098000d008e00ea0057003500
+      hiddenChars: 9ac5cdb13f00
+      currentCryptoKey: 
+      hiddenValue: 
+      version: 1
+    atk:
+      hash: -930843657
+      hiddenValue: 845054929
+      currentCryptoKey: 1942515170
+      hiddenValueOldByte4:
+        b1: 0
+        b2: 0
+        b3: 0
+        b4: 0
+      version: 1
+      migratedVersion: 
+    hp:
+      hash: 1131426227
+      hiddenValue: 2120869659
+      currentCryptoKey: 1035526827
+      hiddenValueOldByte4:
+        b1: 0
+        b2: 0
+        b3: 0
+        b4: 0
+      version: 1
+      migratedVersion: 
+    levelToExp:
+      hash: 1367506385
+      hiddenValue: -1460262021
+      currentCryptoKey: 1417352579
+      version: 1
+  - name:
+      hash: 1042779935
+      cryptoKey: 7900e800a3005600340055002400
+      hiddenChars: 0dc744c02fb76400
+      currentCryptoKey: 
+      hiddenValue: 
+      version: 1
+    atk:
+      hash: 453473187
+      hiddenValue: 971180733
+      currentCryptoKey: 2025251773
+      hiddenValueOldByte4:
+        b1: 0
+        b2: 0
+        b3: 0
+        b4: 0
+      version: 1
+      migratedVersion: 
+    hp:
+      hash: 67661677
+      hiddenValue: 1851333274
+      currentCryptoKey: 1358097827
+      hiddenValueOldByte4:
+        b1: 0
+        b2: 0
+        b3: 0
+        b4: 0
+      version: 1
+      migratedVersion: 
+    levelToExp:
+      hash: 530268065
+      hiddenValue: -887632319
+      currentCryptoKey: 1702951813
+      version: 1
+  - name:
+      hash: 975531479
+      cryptoKey: f5005000b3000a00f000f4006900
+      hiddenChars: 49c0fcc03fb73800
+      currentCryptoKey: 
+      hiddenValue: 
+      version: 1
+    atk:
+      hash: 453473187
+      hiddenValue: 763734789
+      currentCryptoKey: 1813480709
+      hiddenValueOldByte4:
+        b1: 0
+        b2: 0
+        b3: 0
+        b4: 0
+      version: 1
+      migratedVersion: 
+    hp:
+      hash: 67661677
+      hiddenValue: 1124699086
+      currentCryptoKey: 2103688695
+      hiddenValueOldByte4:
+        b1: 0
+        b2: 0
+        b3: 0
+        b4: 0
+      version: 1
+      migratedVersion: 
+    levelToExp:
+      hash: 0
+      hiddenValue: 0
+      currentCryptoKey: 0
+      version: 0
+  - name:
+      hash: 39050547
+      cryptoKey: 6300c8006900fc00540058006f00
+      hiddenChars: cfba6cc259d1ce00
+      currentCryptoKey: 
+      hiddenValue: 
+      version: 1
+    atk:
+      hash: -930843657
+      hiddenValue: 870677445
+      currentCryptoKey: 1915803382
+      hiddenValueOldByte4:
+        b1: 0
+        b2: 0
+        b3: 0
+        b4: 0
+      version: 1
+      migratedVersion: 
+    hp:
+      hash: 1131426227
+      hiddenValue: 45137100
+      currentCryptoKey: 1105410940
+      hiddenValueOldByte4:
+        b1: 0
+        b2: 0
+        b3: 0
+        b4: 0
+      version: 1
+      migratedVersion: 
+    levelToExp:
+      hash: 1367506385
+      hiddenValue: -1178506877
+      currentCryptoKey: 1558230173
+      version: 1
+  testData3:
+  - name:
+      hash: -369781019
+      cryptoKey: 130038003b00e000b8005a00e000
+      hiddenChars: 5bc56db1
+      currentCryptoKey: 
+      hiddenValue: 
+      version: 1
+    atk:
+      hash: -930843657
+      hiddenValue: 570283853
+      currentCryptoKey: 1620889214
+      hiddenValueOldByte4:
+        b1: 0
+        b2: 0
+        b3: 0
+        b4: 0
+      version: 1
+      migratedVersion: 
+    hp:
+      hash: 1131426227
+      hiddenValue: 438049045
+      currentCryptoKey: 1497798565
+      hiddenValueOldByte4:
+        b1: 0
+        b2: 0
+        b3: 0
+        b4: 0
+      version: 1
+      migratedVersion: 
+    levelToExp:
+      hash: 1367506385
+      hiddenValue: -900738949
+      currentCryptoKey: 1697114193
+      version: 1
+  - name:
+      hash: 682352013
+      cryptoKey: 63001100d700f1004d0079003500
+      hiddenChars: 17c7bdc05bb7
+      currentCryptoKey: 
+      hiddenValue: 
+      version: 1
+    atk:
+      hash: 453473187
+      hiddenValue: 351149537
+      currentCryptoKey: 1436675809
+      hiddenValueOldByte4:
+        b1: 0
+        b2: 0
+        b3: 0
+        b4: 0
+      version: 1
+      migratedVersion: 
+    hp:
+      hash: 67661677
+      hiddenValue: 1457135995
+      currentCryptoKey: 1758031426
+      hiddenValueOldByte4:
+        b1: 0
+        b2: 0
+        b3: 0
+        b4: 0
+      version: 1
+      migratedVersion: 
+    levelToExp:
+      hash: 530268065
+      hiddenValue: -1792553279
+      currentCryptoKey: 1251791821
+      version: 1
+  - name:
+      hash: 680314181
+      cryptoKey: e100da000a00310019000f002000
+      hiddenChars: 5dc076c086b7
+      currentCryptoKey: 
+      hiddenValue: 
+      version: 1
+    atk:
+      hash: 453473187
+      hiddenValue: 26538330
+      currentCryptoKey: 1078826074
+      hiddenValueOldByte4:
+        b1: 0
+        b2: 0
+        b3: 0
+        b4: 0
+      version: 1
+      migratedVersion: 
+    hp:
+      hash: 67661677
+      hiddenValue: 1816129139
+      currentCryptoKey: 1376160586
+      hiddenValueOldByte4:
+        b1: 0
+        b2: 0
+        b3: 0
+        b4: 0
+      version: 1
+      migratedVersion: 
+    levelToExp:
+      hash: 0
+      hiddenValue: 0
+      currentCryptoKey: 0
+      version: 0
+  - name:
+      hash: 651935969
+      cryptoKey: b700570029002d00f800ab00bb00
+      hiddenChars: 1bbaf3c219d1
+      currentCryptoKey: 
+      hiddenValue: 
+      version: 1
+    atk:
+      hash: -930843657
+      hiddenValue: 2110464323
+      currentCryptoKey: 1013643376
+      hiddenValueOldByte4:
+        b1: 0
+        b2: 0
+        b3: 0
+        b4: 0
+      version: 1
+      migratedVersion: 
+    hp:
+      hash: 1131426227
+      hiddenValue: 491674949
+      currentCryptoKey: 1577240053
+      hiddenValueOldByte4:
+        b1: 0
+        b2: 0
+        b3: 0
+        b4: 0
+      version: 1
+      migratedVersion: 
+    levelToExp:
+      hash: 1367506385
+      hiddenValue: -668276861
+      currentCryptoKey: 1813345204
+      version: 1
+  - name:
+      hash: 682128215
+      cryptoKey: 140021001d00210032008d002a00
+      hiddenChars: 5cc574b12f00
+      currentCryptoKey: 
+      hiddenValue: 
+      version: 1
+    atk:
+      hash: -930843657
+      hiddenValue: 501451729
+      currentCryptoKey: 1556140258
+      hiddenValueOldByte4:
+        b1: 0
+        b2: 0
+        b3: 0
+        b4: 0
+      version: 1
+      migratedVersion: 
+    hp:
+      hash: 1131426227
+      hiddenValue: 912439538
+      currentCryptoKey: 1978132802
+      hiddenValueOldByte4:
+        b1: 0
+        b2: 0
+        b3: 0
+        b4: 0
+      version: 1
+      migratedVersion: 
+    levelToExp:
+      hash: 1367506385
+      hiddenValue: -2044370557
+      currentCryptoKey: 1125298319
+      version: 1
+  - name:
+      hash: 1042779935
+      cryptoKey: db0082004e001b00c500f4003900
+      hiddenChars: afc72ec0c2b72900
+      currentCryptoKey: 
+      hiddenValue: 
+      version: 1
+    atk:
+      hash: 453473187
+      hiddenValue: 936854418
+      currentCryptoKey: 1996478354
+      hiddenValueOldByte4:
+        b1: 0
+        b2: 0
+        b3: 0
+        b4: 0
+      version: 1
+      migratedVersion: 
+    hp:
+      hash: 67661677
+      hiddenValue: 1524963598
+      currentCryptoKey: 1693536567
+      hiddenValueOldByte4:
+        b1: 0
+        b2: 0
+        b3: 0
+        b4: 0
+      version: 1
+      migratedVersion: 
+    levelToExp:
+      hash: 530268065
+      hiddenValue: -476499395
+      currentCryptoKey: 1908641154
+      version: 1
+  - name:
+      hash: 975531479
+      cryptoKey: a9003900bf007200cf00b6003a00
+      hiddenChars: 15c095c033b74000
+      currentCryptoKey: 
+      hiddenValue: 
+      version: 1
+    atk:
+      hash: 453473187
+      hiddenValue: 120986241
+      currentCryptoKey: 1185298049
+      hiddenValueOldByte4:
+        b1: 0
+        b2: 0
+        b3: 0
+        b4: 0
+      version: 1
+      migratedVersion: 
+    hp:
+      hash: 67661677
+      hiddenValue: 1892093594
+      currentCryptoKey: 1323725731
+      hiddenValueOldByte4:
+        b1: 0
+        b2: 0
+        b3: 0
+        b4: 0
+      version: 1
+      migratedVersion: 
+    levelToExp:
+      hash: 0
+      hiddenValue: 0
+      currentCryptoKey: 0
+      version: 0
+  - name:
+      hash: 39050547
+      cryptoKey: 450091006a009e00c300a0005a00
+      hiddenChars: e9ba35c25ad1ac00
+      currentCryptoKey: 
+      hiddenValue: 
+      version: 1
+    atk:
+      hash: -930843657
+      hiddenValue: 871246641
+      currentCryptoKey: 1918950658
+      hiddenValueOldByte4:
+        b1: 0
+        b2: 0
+        b3: 0
+        b4: 0
+      version: 1
+      migratedVersion: 
+    hp:
+      hash: 1131426227
+      hiddenValue: 713817502
+      currentCryptoKey: 1772224558
+      hiddenValueOldByte4:
+        b1: 0
+        b2: 0
+        b3: 0
+        b4: 0
+      version: 1
+      migratedVersion: 
+    levelToExp:
+      hash: 1367506385
+      hiddenValue: -2126570373
+      currentCryptoKey: 1084198491
+      version: 1

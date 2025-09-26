@@ -43,10 +43,6 @@ public class Enemy : MonoBehaviour
         {
             gameObject.SetActive(false);
         }
-        // Sun에 충돌 시 적 비활성화
-        if (collision.gameObject == battle.sun)
-        {
-            gameObject.SetActive(false);
-        }
+        
     }
 }

@@ -1,3 +1,3 @@
-repository "PlantSurviver/PlantSurviver@14568549246109@cloud"
+rep "PlantSurviver/PlantSurviver@14568549246109@cloud"
   path "/"
-    smartbranch "/main" changeset "15"   
+    smartbranch "/main"

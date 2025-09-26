@@ -1,5 +1,4 @@
 using CodeStage.AntiCheat.ObscuredTypes;
-using System;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AddressableAssets;
@@ -59,6 +58,7 @@ public class DataClient : ScriptableObject
     //데이터 관리 ex)  DataM.Ins.testData1[1].name     DataM.Ins.testData1[1].name
     public List<testData> testData0;
     public List<testData> testData1;
+    public List<testData2> testData3;
 }
 
 [System.Serializable]
@@ -69,3 +69,13 @@ public class testData
     public ObscuredFloat hp;
     public ObscuredInt levelToExp;
 }
+
+[System.Serializable]
+public class testData2
+{
+    public ObscuredString name;
+    public ObscuredFloat atk;
+    public ObscuredFloat hp;
+    public ObscuredInt levelToExp;
+}
+
